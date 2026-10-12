@@ -16,8 +16,8 @@ Give your orders a custom-formatted display number -- a prefix, a suffix, zero-p
 
 HDWebmobile Custom Order Numbers changes the order number WooCommerce shows everywhere -- the admin order list and screen, order emails, and My Account -- to your own format: a prefix like "ORD-", a suffix, a minimum digit count with zero-padding, and a starting-number offset so your first order doesn't have to display as "#1".
 
-= Why this plugin exists =
-"Custom Order Numbers for WooCommerce" (versions up to and including 1.11.0) shipped CVE-2025-66071 (CWE-862 Missing Authorization): order-numbering functionality that should have been restricted to administrators could be manipulated or accessed by users who shouldn't have been able to.
+= Security by design =
+A common weakness in order-numbering tools is administrator-only functionality that is reachable without a proper capability check (CWE-862, Missing Authorization), so users who should not have access can manipulate or read it.
 
 This plugin is built so that class of bug has nowhere to happen:
 
