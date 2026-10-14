@@ -36,6 +36,9 @@ This plugin is built so that class of bug has nowhere to happen:
 * No "search orders by custom number" admin feature in this version
 * Changing the format changes how existing orders display immediately; it does not rewrite anything stored
 
+= Enjoying this plugin? =
+If it helps your site, please consider [leaving an honest review on WordPress.org](https://wordpress.org/support/plugin/hdwebmobile-custom-order-numbers/reviews/#new-post) -- it helps other WordPress users find it. Found a problem or have an idea? Please [open a support topic](https://wordpress.org/support/plugin/hdwebmobile-custom-order-numbers/) first so it can be fixed.
+
 == Installation ==
 
 1. Upload the plugin files to the `/wp-content/plugins/hdwebmobile-custom-order-numbers` directory, or install the plugin through the WordPress plugins screen directly.
