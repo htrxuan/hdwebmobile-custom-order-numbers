@@ -12,7 +12,7 @@ Changes the order number shown everywhere — admin, emails, My Account — to y
 
 ## Why this plugin exists
 
-"Custom Order Numbers for WooCommerce" (≤ 1.11.0) shipped CVE-2025-66071 (CWE-862 Missing Authorization) — order-numbering functionality restricted to admins could be manipulated by users who shouldn't have been able to.
+The main risk in order-numbering plugins is missing authorization (CWE-862) -- settings meant for admins being changeable by users who shouldn't be able to.
 
 Closed by construction:
 

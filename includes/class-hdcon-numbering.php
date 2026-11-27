@@ -11,9 +11,9 @@ if (!defined('ABSPATH')) {
  * nothing else. There is no separate counter, sequence table, or anything that could drift
  * out of sync with, collide with, or be raced against the real id.
  *
- * CVE-2025-66071 (CWE-862 Missing Authorization) in "Custom Order Numbers for WooCommerce"
- * (<= 1.11.0): order-numbering functionality that should have been restricted to
- * administrators could be manipulated or accessed by users who shouldn't have been able to.
+ * The risk this guards against (CWE-862, Missing Authorization): order-numbering settings
+ * that should be restricted to administrators being changeable by users who shouldn't be
+ * able to.
  *
  * This plugin closes that by construction on two fronts:
  *   - The ONLY write path for the format settings (prefix, suffix, digit padding, starting
